@@ -1,10 +1,11 @@
 #!/usr/bin/osascript
 # <bitbar.title>zoomBlinkState</bitbar.title>
-# <bitbar.version>v1.0</bitbar.version>
+# <bitbar.version>v1.1</bitbar.version>
 # <bitbar.author>Sebastian</bitbar.author>
 # <bitbar.author.github>brookssw</bitbar.author.github>
 # <bitbar.desc>Zoom Meeting State with Blink1 Control</bitbar.desc>
 # <bitbar.dependencies>Applescript, blink1-tool</bitbar.dependencies>
+
 # <swiftbar.hideAbout>true</swiftbar.hideAbout>
 # <swiftbar.hideRunInTerminal>true</swiftbar.hideRunInTerminal>
 # <swiftbar.hideLastUpdated>true</swiftbar.hideLastUpdated>
