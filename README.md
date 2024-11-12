@@ -23,6 +23,3 @@ When in a meeting:
 ## Blink1 Device
 
 To use the `zoomBlinkState.1s.scpt` script, you will need a Blink1 device. You can purchase the Blink1 mk3 from [thingm](https://blink1.thingm.com/buy/) or [Amazon](https://www.amazon.com/dp/B07Q8944QK)
-
-## Stuck?
-Reach out to me (Sebastian), happy to help :)
