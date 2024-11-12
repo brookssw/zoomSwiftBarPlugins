@@ -6,7 +6,8 @@ AppleScripts for use with SwiftBar to monitor the various states of Zoom
 
 `zoomMuteState` `zoomScreenShareState` `zoomVideoState` display icons in your menu bar showing whether you are muted or not, screen sharing or not, and sharing video or not.
 
-`zoomBlinkState` will control an attached "blink1" light.\n
+`zoomBlinkState` will control an attached "blink1" light.
+
 When in a meeting:
 - Muted: yellow
 - Unmuted: red
