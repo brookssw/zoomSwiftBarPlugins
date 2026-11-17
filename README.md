@@ -12,6 +12,12 @@ When in a meeting:
 - Muted: yellow
 - Unmuted: red
 
+## How they run
+
+Each plugin is a SwiftBar [streamable](https://github.com/swiftbar/SwiftBar#streamable) plugin: one long-lived `osascript` that checks Zoom once a second and only writes output (or calls `blink1-tool`) when the state changes.
+
+The earlier `*.1s.scpt` versions launched a new `osascript` every second. Each launch registers with WindowServer and leaks a Mach port. At 4 launches a second, WindowServer hits its port limit after about a day, gets killed, and logs you out.
+
 ## Installation
 
 1. Install [SwiftBar](https://github.com/swiftbar/SwiftBar)
